@@ -15,6 +15,14 @@ Roblox-focused GitHub Agentic Workflow template library. Use it as a starting po
 
 ## Recommended Setup
 
+Read the setup guide first:
+
+- [Setup Guide](docs/setup.md)
+- [Workflow Selection Guide](docs/workflow-selection.md)
+- [Command Cookbook](docs/command-cookbook.md)
+- [Labels](docs/labels.md)
+- [Roblox Safety Checklist](docs/roblox-safety-checklist.md)
+
 Start with the general workflow:
 
 ```bash
@@ -54,3 +62,11 @@ git push
 ## Pattern Notes
 
 See [docs/open-source-patterns.md](docs/open-source-patterns.md) for the open-source `gh-aw` patterns used to shape these templates.
+
+## GitHub Templates
+
+This repository also includes:
+
+- Roblox bug report issue template.
+- Roblox feature request issue template.
+- Pull request template with Roblox-specific review checkboxes.
