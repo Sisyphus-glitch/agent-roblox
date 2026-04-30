@@ -1,0 +1,43 @@
+name: Roblox Feature Request
+description: Propose a focused Roblox gameplay, tooling, UI, or workflow improvement.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What user or developer outcome should this improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Behavior
+      description: Describe the desired behavior or workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Files, systems, services, UI, or gameplay areas likely involved.
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation
+      description: How should this be tested in Studio or with automated tests?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Gameplay
+        - Networking / Remotes
+        - DataStore / Persistence
+        - UI
+        - Performance
+        - Tooling
+        - Documentation
+        - Tests
+        - Other
