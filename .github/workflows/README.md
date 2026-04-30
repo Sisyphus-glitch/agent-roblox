@@ -55,3 +55,11 @@ git commit -m "Compile Roblox agentic workflows"
 ## Labels
 
 `agentic-roblox-triage.md` can add labels such as `bug`, `needs-repro`, `networking`, `datastore`, and `testing`. Create or customize these labels in your target repository before enabling the triage variant.
+
+## Supporting Docs
+
+- `docs/setup.md`: install and compile guide.
+- `docs/workflow-selection.md`: which workflow to use for each task.
+- `docs/command-cookbook.md`: slash command examples.
+- `docs/labels.md`: recommended labels and CLI creation commands.
+- `docs/roblox-safety-checklist.md`: prompt and review checklist.
