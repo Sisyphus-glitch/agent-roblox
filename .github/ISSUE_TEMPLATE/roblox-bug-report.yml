@@ -1,0 +1,66 @@
+name: Roblox Bug Report
+description: Report a reproducible Roblox gameplay, scripting, UI, or data issue.
+title: "[Bug] "
+labels: ["bug", "needs-repro"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction Steps
+      description: List exact steps from a clean session.
+      placeholder: |
+        1. Join the place as ...
+        2. Open ...
+        3. Trigger ...
+        4. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Gameplay
+        - Networking / Remotes
+        - DataStore / Persistence
+        - UI
+        - Performance
+        - Roblox Studio
+        - Tests
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: studio-version
+    attributes:
+      label: Roblox Studio Version
+      placeholder: "e.g. 0.000.0.000000"
+  - type: input
+    id: platform
+    attributes:
+      label: Platform / Device
+      placeholder: "Windows, macOS, iOS, Android, Xbox, etc."
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, Screenshots, Or Place Context
+      description: Paste relevant output logs, screenshots, or links.
